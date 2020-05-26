@@ -1,0 +1,28 @@
+uuid: 06888785-3c98-4405-86ee-19a78ba6ad1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.autor
+    - node.type.libro
+id: node.libro.field_autor
+field_name: field_autor
+entity_type: node
+bundle: libro
+label: Autor
+description: 'Para saber quien es el autor de este libro'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      autor: autor
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

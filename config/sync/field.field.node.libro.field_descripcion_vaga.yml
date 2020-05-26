@@ -1,0 +1,29 @@
+uuid: 27dd16e5-918d-417d-b197-0b404c322ef6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_vaga
+    - node.type.libro
+    - taxonomy.vocabulary.descripcion_vaga
+id: node.libro.field_descripcion_vaga
+field_name: field_descripcion_vaga
+entity_type: node
+bundle: libro
+label: Descripcion_vaga
+description: 'Descripcion vaga sobre el libro'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      descripcion_vaga: descripcion_vaga
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

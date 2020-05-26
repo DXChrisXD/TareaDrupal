@@ -1,0 +1,21 @@
+uuid: 7ff2077b-ce89-465c-9789-faa6bb87cf91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nacionalidad
+    - node.type.autor
+  module:
+    - text
+id: node.autor.field_nacionalidad
+field_name: field_nacionalidad
+entity_type: node
+bundle: autor
+label: Nacionalidad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

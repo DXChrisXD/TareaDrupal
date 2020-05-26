@@ -1,0 +1,21 @@
+uuid: 9c35ccf7-bcad-4966-928c-1948b59ea339
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.descripcion_vaga
+  module:
+    - text
+id: taxonomy_term.descripcion_vaga.default
+targetEntityType: taxonomy_term
+bundle: descripcion_vaga
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

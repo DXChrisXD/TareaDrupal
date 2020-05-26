@@ -1,0 +1,29 @@
+uuid: 39c468f3-f6ad-4cfc-9f49-97d64d40f9b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.libro
+    - taxonomy.vocabulary.categoria
+id: node.libro.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: libro
+label: Categoria
+description: "Que categoria o genero es el libro\r\nMiedo, Accion, drama, comedia, amor."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria: categoria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

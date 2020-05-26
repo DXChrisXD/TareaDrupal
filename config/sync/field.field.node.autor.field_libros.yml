@@ -1,0 +1,28 @@
+uuid: 91a78a55-c605-477f-b00f-630972474dea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_libros
+    - node.type.autor
+    - node.type.libro
+id: node.autor.field_libros
+field_name: field_libros
+entity_type: node
+bundle: autor
+label: Libros
+description: 'Libros que poseen los autores'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      libro: libro
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

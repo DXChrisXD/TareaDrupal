@@ -1,0 +1,67 @@
+uuid: 0d8bc1f7-daec-42de-91b4-87e177aa8645
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.libro.body
+    - field.field.node.libro.field_autor
+    - field.field.node.libro.field_categoria
+    - field.field.node.libro.field_descripcion_vaga
+    - field.field.node.libro.field_imagen
+    - image.style.vista_normal
+    - node.type.libro
+  module:
+    - image
+    - text
+    - user
+id: node.libro.default
+targetEntityType: node
+bundle: libro
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_autor:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_categoria:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_descripcion_vaga:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_imagen:
+    weight: 102
+    label: visually_hidden
+    settings:
+      image_style: vista_normal
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

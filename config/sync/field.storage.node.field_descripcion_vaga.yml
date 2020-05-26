@@ -1,0 +1,20 @@
+uuid: d1f9f0d3-2202-44d1-94ec-a3c5db7ef960
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_descripcion_vaga
+field_name: field_descripcion_vaga
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,28 @@
+uuid: 2fa457b3-0029-4c63-9b9b-44182185f701
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.autor.field_apellido
+    - field.field.node.autor.field_foto
+    - field.field.node.autor.field_libros
+    - field.field.node.autor.field_nacionalidad
+    - node.type.autor
+  module:
+    - user
+id: node.autor.teaser
+targetEntityType: node
+bundle: autor
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_apellido: true
+  field_foto: true
+  field_libros: true
+  field_nacionalidad: true
