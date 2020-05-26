@@ -1,0 +1,18 @@
+uuid: 7e1230ee-af62-4788-8481-fd1dfa938354
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Autor
+type: autor
+description: "El autor contendra\r\nApellido\r\nNacionalidad"
+help: ''
+new_revision: true
+preview_mode: 2
+display_submitted: true

@@ -1,0 +1,8 @@
+uuid: 834346ee-f597-4cb0-81bc-716f83410619
+langcode: en
+status: true
+dependencies: {  }
+name: Categoria
+vid: categoria
+description: 'Miedo, Accion, Drama, Amor, Comedia'
+weight: 0

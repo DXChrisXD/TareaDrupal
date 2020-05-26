@@ -1,0 +1,22 @@
+uuid: 717eeedc-3a08-4d8a-9e6b-e729f1860441
+langcode: en
+status: true
+dependencies: {  }
+name: vista_normal
+label: Vista_Normal
+effects:
+  0e62ac04-c4bc-4283-9d7d-1cac2e85b46c:
+    uuid: 0e62ac04-c4bc-4283-9d7d-1cac2e85b46c
+    id: image_resize
+    weight: 1
+    data:
+      width: 380
+      height: 480
+  36359405-a0e7-4cab-b4f8-4e7acfc9ea4e:
+    uuid: 36359405-a0e7-4cab-b4f8-4e7acfc9ea4e
+    id: image_scale
+    weight: 2
+    data:
+      width: 380
+      height: 480
+      upscale: false

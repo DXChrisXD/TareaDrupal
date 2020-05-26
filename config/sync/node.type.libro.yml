@@ -1,0 +1,18 @@
+uuid: bba152bc-7265-4a34-a026-73ba8947f8c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Libro
+type: libro
+description: 'Libro con descripción, autor, titulo y categoria'
+help: ''
+new_revision: true
+preview_mode: 2
+display_submitted: true

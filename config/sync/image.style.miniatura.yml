@@ -1,0 +1,22 @@
+uuid: 7c469c30-716f-44d5-ac29-7daa9917dda6
+langcode: en
+status: true
+dependencies: {  }
+name: miniatura
+label: Miniatura
+effects:
+  d935b9fa-7964-4182-bc3d-3a4095253f78:
+    uuid: d935b9fa-7964-4182-bc3d-3a4095253f78
+    id: image_scale
+    weight: 1
+    data:
+      width: 80
+      height: 120
+      upscale: false
+  308e18f2-1bc6-494f-9257-7fba3b49410f:
+    uuid: 308e18f2-1bc6-494f-9257-7fba3b49410f
+    id: image_resize
+    weight: 2
+    data:
+      width: 80
+      height: 120
