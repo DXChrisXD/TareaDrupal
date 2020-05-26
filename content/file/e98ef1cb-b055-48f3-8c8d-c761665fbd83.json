@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-05\/autor3.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "e98ef1cb-b055-48f3-8c8d-c761665fbd83"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3263379a-e661-4c7f-8213-34699643e867"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "autor3.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-05\/autor3.png",
+            "url": "\/sites\/default\/files\/2020-05\/autor3.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 88571
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-26T16:53:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-26T16:54:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

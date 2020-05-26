@@ -1,0 +1,92 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uuid": [
+        {
+            "value": "3263379a-e661-4c7f-8213-34699643e867"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "DXChrisXD"
+        }
+    ],
+    "mail": [
+        {
+            "value": "christopher.top3@gmail.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "America\/Costa_Rica"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-26T16:26:52+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-26T16:29:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "access": [
+        {
+            "value": "2020-05-26T17:51:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "login": [
+        {
+            "value": "2020-05-26T16:29:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "init": [
+        {
+            "value": "christopher.top3@gmail.com"
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "administrator"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "pass": [
+        {
+            "value": "$S$EFUozTaVqCQhleaeO6ezGMcymNasfrEbTCyQjODqI56TAlXHgwna"
+        }
+    ]
+}

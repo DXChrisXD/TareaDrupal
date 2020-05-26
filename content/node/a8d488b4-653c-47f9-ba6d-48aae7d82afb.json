@@ -1,0 +1,235 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/libro"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_autor": [
+            {
+                "href": "http:\/\/default\/node\/4?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_categoria": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_descripcion_vaga": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/9?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_imagen": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-05\/portada4.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "a8d488b4-653c-47f9-ba6d-48aae7d82afb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "libro"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-26T17:21:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3263379a-e661-4c7f-8213-34699643e867"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3263379a-e661-4c7f-8213-34699643e867"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_autor": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/autor"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "78c0cc5a-1a36-4d2c-9841-37672047cc4b"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_categoria": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f06bf419-cbe6-45a9-a581-2af54ee7aa13"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_descripcion_vaga": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/9?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/descripcion_vaga"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eb223e76-a6c2-4779-b7ed-0c1ba5460786"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_imagen": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-05\/portada4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9c3ac0eb-d69b-4b35-8ff5-52416940a753"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "La jungla Crece de nuevo",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-26T17:19:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-26T17:21:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>En esta historia se cuenta el renacer de jungla recien deforestada y como sus habitantes la cuidan ante cualquier mal<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>En esta historia se cuenta el renacer de jungla recien deforestada y como sus habitantes la cuidan ante cualquier mal<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

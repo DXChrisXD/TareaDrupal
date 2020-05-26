@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-05\/portada2.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b7312bd8-8573-4ad2-b3cf-9aba00fad9fb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3263379a-e661-4c7f-8213-34699643e867"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "portada2.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-05\/portada2.jpg",
+            "url": "\/sites\/default\/files\/2020-05\/portada2.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 17122
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-26T17:17:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-26T17:18:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

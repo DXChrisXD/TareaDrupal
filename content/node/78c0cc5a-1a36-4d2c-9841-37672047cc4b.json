@@ -1,0 +1,196 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/autor"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/autor\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/autor\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/autor\/field_foto": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-05\/autor4.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/autor\/field_libros": [
+            {
+                "href": "http:\/\/default\/node\/10?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "78c0cc5a-1a36-4d2c-9841-37672047cc4b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "autor"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-26T17:29:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/autor\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3263379a-e661-4c7f-8213-34699643e867"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/autor\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3263379a-e661-4c7f-8213-34699643e867"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/autor\/field_foto": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-05\/autor4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd592748-6be8-4a89-bc30-f9f8334aec5a"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/autor\/field_libros": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/libro"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a8d488b4-653c-47f9-ba6d-48aae7d82afb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Berto",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-26T16:54:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-26T17:29:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_apellido": [
+        {
+            "value": "Gakan",
+            "format": "basic_html",
+            "processed": "Gakan"
+        }
+    ],
+    "field_nacionalidad": [
+        {
+            "value": "Jamaiquino",
+            "format": "basic_html",
+            "processed": "Jamaiquino"
+        }
+    ]
+}

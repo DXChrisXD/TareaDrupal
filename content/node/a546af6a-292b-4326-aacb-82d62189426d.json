@@ -1,0 +1,253 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/8?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/libro"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_autor": [
+            {
+                "href": "http:\/\/default\/node\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_categoria": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_descripcion_vaga": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_imagen": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-05\/portada2.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "a546af6a-292b-4326-aacb-82d62189426d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "libro"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-26T17:18:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3263379a-e661-4c7f-8213-34699643e867"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3263379a-e661-4c7f-8213-34699643e867"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_autor": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/autor"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3e859c2f-1bd1-4d5e-ac88-809aaed21e86"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_categoria": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f06bf419-cbe6-45a9-a581-2af54ee7aa13"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/categoria"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8965c715-18a1-4094-a676-946b77d1a8da"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_descripcion_vaga": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/descripcion_vaga"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db19cb54-e709-4572-aaa7-d21a7880c81f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/libro\/field_imagen": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-05\/portada2.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b7312bd8-8573-4ad2-b3cf-9aba00fad9fb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "El Nacimiento",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-26T17:16:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-26T17:18:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Nadie sab\u00eda que iba a nacer o a que iba a parar, solo saben que iba a ocurrir.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Nadie sab\u00eda que iba a nacer o a que iba a parar, solo saben que iba a ocurrir.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
